@@ -20,11 +20,11 @@ public class NumberOne {
     public int[] findTwoValuesThatSumToTarget(int[] numbers, int target) {
         int[] solutions = new int[1];
         for (int i = 0; i < numbers.length; i++) {
-            for (int j = 0; j < numbers.length; i++) {
+            for (int j = 0; j < numbers.length; j++) {
                 if (numbers[i] + numbers[j] == target);
                 {
-                    solutions[0] = solutions[i];
-                    solutions[1] = solutions[j];
+                    solutions[0] = i;
+                    solutions[1] = j;
                 }
 
 
