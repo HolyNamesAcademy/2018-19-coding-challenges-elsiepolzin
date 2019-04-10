@@ -29,8 +29,8 @@ public class NumberTwo {
         int three = Math.max(a, c);
 
         int max = Math.max(Math.max(one, two), three);
-            if(max == one)
-                
+
+
         int min = Math.min(Math.max(one, two), three);
 
 
