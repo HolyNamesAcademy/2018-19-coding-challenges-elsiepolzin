@@ -18,7 +18,7 @@ package challenges;
  * s: 07:05:45PM
  * return: 19:05:45
  *
- * @param  a string representing time in 12 hour format
+ //@param a string representing time in 12 hour format
  * @return the string s in 24 hour format
  */
 
@@ -27,29 +27,25 @@ public class NumberThree {
 
     public String timeConversion(String s) {
 
-        String newString = "";
+        String newString = " ";
 
         if(s.indexOf('a') != -1) {
            newString = s.substring(0, 8);
 
-            return newString;
+
         }
 
         if(s.indexOf('p')  != -1){
             newString = "";
             String newnewString = s.substring(2, 8);
             int num = Integer.parseInt(s);
+            num= num+12;
             newString+= num + newnewString;
+
+
+
         }
-            return newString;
-
-
-
-        String sub = s.substring()
-
-
-
-
-
+    return newString;
     }
+
 }
